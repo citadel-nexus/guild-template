@@ -1,0 +1,23 @@
+{
+  "name": "@citadel-guilds/guild-template",
+  "version": "0.1.0",
+  "description": "Starter template for building a Citadel guild",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --dts --format esm,cjs --out-dir dist",
+    "test": "vitest",
+    "lint": "eslint . --ext .ts"
+  },
+  "peerDependencies": {
+    "@citadel-guilds/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@citadel-guilds/sdk": "^1.0.0",
+    "typescript": "^5.4.0",
+    "vitest": "^1.0.0",
+    "tsup": "^6.0.0",
+    "eslint": "^8.0.0"
+  }
+}
