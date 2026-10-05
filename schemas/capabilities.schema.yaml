@@ -1,0 +1,109 @@
+# ─── CGRF Header ───────────────────────────────────────────────
+# File:        schemas/capabilities.schema.yaml
+# Stage:       06_PLAN
+# SRS:         SRS-GUILD-BOOTSTRAP-001
+# CAPS:        pending
+# CK:          pending
+# Dispatch:    user-authorized-bootstrap
+# Seat:        BITS-CODEGEN
+# Owner:       Citadel Nexus Inc.
+# Created:     2026-10-05
+# Depends:     none
+# EnumType:    Schema
+# EnumEdges:   DEPENDS_ON SRS-GUILD-BOOTSTRAP-001
+# DAG Node:    none
+# Intent:      Constrain machine-readable guild capabilities declarations.
+# ───────────────────────────────────────────────────────────────
+
+$schema: "https://json-schema.org/draft/2020-12/schema"
+title: "Guild capabilities"
+type: "object"
+properties:
+  provides:
+    type: "array"
+    items:
+      type: "object"
+      properties:
+        id:
+          type: "string"
+          minLength: 1
+          pattern: "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+        provider:
+          type: "string"
+          minLength: 1
+          pattern: "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+        consumers:
+          type: "array"
+          items:
+            type: "string"
+            minLength: 1
+            pattern: "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+          uniqueItems: true
+        domain:
+          type: "string"
+          minLength: 1
+          pattern: "^[a-z][a-z0-9_-]*(?:\\.[a-z][a-z0-9_-]*)*$"
+        authority_level:
+          type: "string"
+          minLength: 1
+          enum:
+            - "A1"
+            - "A2"
+            - "A3"
+            - "A4"
+            - "A5"
+            - "A6"
+            - "A7"
+            - "A8"
+            - "A9"
+        input_schema:
+          type: "string"
+          minLength: 1
+        output_schema:
+          type: "string"
+          minLength: 1
+        slo_ref:
+          type: "string"
+          minLength: 1
+          pattern: "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+        verification:
+          type: "array"
+          items:
+            type: "string"
+            minLength: 1
+          uniqueItems: true
+          minItems: 1
+      required:
+        - "id"
+        - "provider"
+        - "consumers"
+        - "domain"
+        - "authority_level"
+        - "input_schema"
+        - "output_schema"
+        - "slo_ref"
+        - "verification"
+      additionalProperties: false
+    uniqueItems: true
+  requires:
+    type: "array"
+    items:
+      type: "object"
+      properties:
+        guild_id:
+          type: "string"
+          minLength: 1
+          pattern: "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+        capability_id:
+          type: "string"
+          minLength: 1
+          pattern: "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+      required:
+        - "guild_id"
+        - "capability_id"
+      additionalProperties: false
+    uniqueItems: true
+required:
+  - "provides"
+  - "requires"
+additionalProperties: false

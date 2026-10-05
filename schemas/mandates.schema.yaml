@@ -1,0 +1,225 @@
+# ─── CGRF Header ───────────────────────────────────────────────
+# File:        schemas/mandates.schema.yaml
+# Stage:       06_PLAN
+# SRS:         SRS-GUILD-BOOTSTRAP-001
+# CAPS:        pending
+# CK:          pending
+# Dispatch:    user-authorized-bootstrap
+# Seat:        BITS-CODEGEN
+# Owner:       Citadel Nexus Inc.
+# Created:     2026-10-05
+# Depends:     none
+# EnumType:    Schema
+# EnumEdges:   DEPENDS_ON SRS-GUILD-BOOTSTRAP-001
+# DAG Node:    none
+# Intent:      Constrain machine-readable guild mandates declarations.
+# ───────────────────────────────────────────────────────────────
+
+$schema: "https://json-schema.org/draft/2020-12/schema"
+title: "Guild mandates"
+type: "object"
+properties:
+  mandates:
+    type: "array"
+    items:
+      type: "object"
+      properties:
+        id:
+          type: "string"
+          minLength: 1
+          pattern: "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+        owner_role:
+          type: "string"
+          minLength: 1
+          pattern: "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+        slos:
+          type: "array"
+          items:
+            type: "string"
+            minLength: 1
+            pattern: "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+          uniqueItems: true
+          minItems: 1
+        cadence:
+          type: "string"
+          minLength: 1
+          pattern: "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+        required_outputs:
+          type: "array"
+          items:
+            type: "string"
+            minLength: 1
+          uniqueItems: true
+          minItems: 1
+        verification:
+          type: "array"
+          items:
+            type: "string"
+            minLength: 1
+          uniqueItems: true
+          minItems: 1
+      required:
+        - "id"
+        - "owner_role"
+        - "slos"
+        - "cadence"
+        - "required_outputs"
+        - "verification"
+      additionalProperties: false
+    uniqueItems: true
+    minItems: 1
+required:
+  - "mandates"
+additionalProperties: false
+$defs:
+  slos:
+    type: "object"
+    properties:
+      slos:
+        type: "array"
+        items:
+          type: "object"
+          properties:
+            id:
+              type: "string"
+              minLength: 1
+              pattern: "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+            indicator:
+              type: "string"
+              minLength: 1
+            target:
+              type: "number"
+              minimum: 0
+              maximum: 1
+            window:
+              type: "string"
+              minLength: 1
+            verification:
+              type: "array"
+              items:
+                type: "string"
+                minLength: 1
+              uniqueItems: true
+              minItems: 1
+          required:
+            - "id"
+            - "indicator"
+            - "target"
+            - "window"
+            - "verification"
+          additionalProperties: false
+        uniqueItems: true
+        minItems: 1
+    required:
+      - "slos"
+    additionalProperties: false
+  cadence:
+    type: "object"
+    properties:
+      cadences:
+        type: "array"
+        items:
+          type: "object"
+          properties:
+            id:
+              type: "string"
+              minLength: 1
+              pattern: "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+            schedule:
+              type: "string"
+              minLength: 1
+            owner_role:
+              type: "string"
+              minLength: 1
+              pattern: "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+            required_outputs:
+              type: "array"
+              items:
+                type: "string"
+                minLength: 1
+              uniqueItems: true
+              minItems: 1
+          required:
+            - "id"
+            - "schedule"
+            - "owner_role"
+            - "required_outputs"
+          additionalProperties: false
+        uniqueItems: true
+        minItems: 1
+    required:
+      - "cadences"
+    additionalProperties: false
+  service:
+    type: "object"
+    properties:
+      schema-version:
+        type: "string"
+        const: "v2.2"
+      dd-service:
+        type: "string"
+        minLength: 1
+        pattern: "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+      team:
+        type: "string"
+        minLength: 1
+      application:
+        type: "string"
+        minLength: 1
+      description:
+        type: "string"
+        minLength: 1
+      tags:
+        type: "array"
+        items:
+          type: "string"
+          minLength: 1
+        uniqueItems: true
+    required:
+      - "schema-version"
+      - "dd-service"
+      - "team"
+      - "application"
+      - "description"
+      - "tags"
+    additionalProperties: false
+  registry:
+    type: "object"
+    properties:
+      srs:
+        type: "array"
+        items:
+          type: "object"
+          properties:
+            code:
+              type: "string"
+              minLength: 1
+              pattern: "^SRS-[A-Z0-9]+(?:-[A-Z0-9]+)*-[0-9]+$"
+            status:
+              type: "string"
+              minLength: 1
+              enum:
+                - "bootstrap"
+                - "ready"
+                - "in_progress"
+                - "complete"
+            scope:
+              type: "string"
+              minLength: 1
+            cks_gate:
+              type: "string"
+              minLength: 1
+            caps_minimum:
+              type: "string"
+              minLength: 1
+          required:
+            - "code"
+            - "status"
+            - "scope"
+            - "cks_gate"
+            - "caps_minimum"
+          additionalProperties: false
+        uniqueItems: true
+    required:
+      - "srs"
+    additionalProperties: false

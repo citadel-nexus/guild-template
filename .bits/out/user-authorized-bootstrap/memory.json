@@ -1,0 +1,1902 @@
+{
+  "vectors": [
+    {
+      "type": "A",
+      "file_path": ".bits/context.md",
+      "cket_stage": "11_COMMIT",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "ConfigDoc",
+      "functions": [],
+      "dependencies": [],
+      "lines": 32,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Record explicit bootstrap scope without fabricating a dispatch.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": ".bits/out/user-authorized-bootstrap/memory.cgrf.yaml",
+      "cket_stage": "11_COMMIT",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "ConfigDoc",
+      "functions": [],
+      "dependencies": [],
+      "lines": 23,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Describe the JSON memory payload without adding invalid JSON comments.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": ".bits/out/user-authorized-bootstrap/memory.json",
+      "cket_stage": "11_COMMIT",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "ConfigDoc",
+      "functions": [],
+      "dependencies": [],
+      "lines": 1902,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Preserve bootstrap file provenance and verified local validation events.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": ".bits/srs/SRS-GUILD-BOOTSTRAP-001.md",
+      "cket_stage": "04_HYPOTHESIZE",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "Doc",
+      "functions": [],
+      "dependencies": [],
+      "lines": 62,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Record the user-authorized bootstrap scope and testable acceptance criteria.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": ".bits/srs_registry.yml",
+      "cket_stage": "11_COMMIT",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "ConfigDoc",
+      "functions": [],
+      "dependencies": [],
+      "lines": 24,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Define a reviewable guild governance contract.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": ".gitignore",
+      "cket_stage": "11_COMMIT",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "ConfigDoc",
+      "functions": [],
+      "dependencies": [],
+      "lines": 23,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Keep local Python validation caches out of source control.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": "AGENTS.md",
+      "cket_stage": "04_HYPOTHESIZE",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "ConfigDoc",
+      "functions": [],
+      "dependencies": [],
+      "lines": 44,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Make agent operating boundaries explicit without granting bootstrap powers.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": "CLAUDE.md",
+      "cket_stage": "04_HYPOTHESIZE",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "Doc",
+      "functions": [],
+      "dependencies": [],
+      "lines": 37,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Explain human review and ratification of generated guild contracts.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": "CONSTITUTION.md",
+      "cket_stage": "04_HYPOTHESIZE",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "Doc",
+      "functions": [],
+      "dependencies": [],
+      "lines": 79,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Define the fourteen questions every guild must ratify.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": "README.md",
+      "cket_stage": "06_PLAN",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "Doc",
+      "functions": [],
+      "dependencies": [],
+      "lines": 68,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Explain the existing SDK starter and the new governance compiler.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": "compiler/README.md",
+      "cket_stage": "06_PLAN",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "Doc",
+      "functions": [],
+      "dependencies": [],
+      "lines": 144,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Document compiler contracts, limitations and reproducible validation.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": "compiler/__init__.py",
+      "cket_stage": "07_BUILD",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "Service",
+      "functions": [],
+      "dependencies": [],
+      "lines": 18,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Expose local governance compiler modules.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": "compiler/cross_guild_check.py",
+      "cket_stage": "07_BUILD",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "Service",
+      "functions": [
+        "check_guilds",
+        "main"
+      ],
+      "dependencies": [
+        "__future__",
+        "argparse",
+        "compiler.graphs",
+        "compiler.validate",
+        "pathlib",
+        "sys",
+        "typing"
+      ],
+      "lines": 134,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Validate guild contracts locally without granting runtime authority.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": "compiler/graphs.py",
+      "cket_stage": "07_BUILD",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "Service",
+      "functions": [
+        "subjects_overlap",
+        "cycle_nodes",
+        "domains_overlap"
+      ],
+      "dependencies": [
+        "__future__"
+      ],
+      "lines": 53,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Validate guild contracts locally without granting runtime authority.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": "compiler/materialize.py",
+      "cket_stage": "07_BUILD",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "Service",
+      "functions": [
+        "_replace_scalar",
+        "materialize",
+        "main"
+      ],
+      "dependencies": [
+        "__future__",
+        "argparse",
+        "compiler.validate",
+        "compiler.yaml_subset",
+        "json",
+        "pathlib",
+        "re",
+        "shutil",
+        "sys",
+        "tempfile"
+      ],
+      "lines": 137,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Validate guild contracts locally without granting runtime authority.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": "compiler/schema.py",
+      "cket_stage": "07_BUILD",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "Service",
+      "functions": [
+        "check_schema",
+        "validate_value"
+      ],
+      "dependencies": [
+        "__future__",
+        "compiler.yaml_subset",
+        "re",
+        "typing"
+      ],
+      "lines": 125,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Validate guild contracts locally without granting runtime authority.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": "compiler/validate.py",
+      "cket_stage": "07_BUILD",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "Service",
+      "functions": [
+        "check_envelope",
+        "read_source",
+        "_indexed",
+        "_semantics",
+        "validate_guild",
+        "main"
+      ],
+      "dependencies": [
+        "__future__",
+        "argparse",
+        "compiler.graphs",
+        "compiler.schema",
+        "compiler.yaml_subset",
+        "dataclasses",
+        "datetime",
+        "pathlib",
+        "re",
+        "sys",
+        "typing"
+      ],
+      "lines": 353,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Validate guild contracts locally without granting runtime authority.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": "compiler/yaml_subset.py",
+      "cket_stage": "07_BUILD",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "Service",
+      "functions": [
+        "_pairs",
+        "_comment",
+        "_scalar",
+        "_bounded",
+        "loads",
+        "load"
+      ],
+      "dependencies": [
+        "__future__",
+        "json",
+        "math",
+        "pathlib",
+        "re",
+        "typing"
+      ],
+      "lines": 205,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Validate guild contracts locally without granting runtime authority.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": "contracts/capabilities.yaml",
+      "cket_stage": "06_PLAN",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "ConfigDoc",
+      "functions": [],
+      "dependencies": [],
+      "lines": 19,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Define a reviewable guild governance contract.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": "contracts/delegation/_template.yaml",
+      "cket_stage": "06_PLAN",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "ConfigDoc",
+      "functions": [],
+      "dependencies": [],
+      "lines": 27,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Define a reviewable guild governance contract.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": "contracts/events/namespace.yaml",
+      "cket_stage": "06_PLAN",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "ConfigDoc",
+      "functions": [],
+      "dependencies": [],
+      "lines": 21,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Define a reviewable guild governance contract.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": "governance/authority.yaml",
+      "cket_stage": "06_PLAN",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "ConfigDoc",
+      "functions": [],
+      "dependencies": [],
+      "lines": 65,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Define a reviewable guild governance contract.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": "governance/escalation.yaml",
+      "cket_stage": "06_PLAN",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "ConfigDoc",
+      "functions": [],
+      "dependencies": [],
+      "lines": 28,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Define a reviewable guild governance contract.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": "governance/guild.yaml",
+      "cket_stage": "06_PLAN",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "ConfigDoc",
+      "functions": [],
+      "dependencies": [],
+      "lines": 36,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Define a reviewable guild governance contract.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": "governance/hierarchy.yaml",
+      "cket_stage": "06_PLAN",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "ConfigDoc",
+      "functions": [],
+      "dependencies": [],
+      "lines": 19,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Define a reviewable guild governance contract.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": "governance/mandates.yaml",
+      "cket_stage": "06_PLAN",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "ConfigDoc",
+      "functions": [],
+      "dependencies": [],
+      "lines": 29,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Define a reviewable guild governance contract.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": "operations/INCIDENTS.md",
+      "cket_stage": "06_PLAN",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "Doc",
+      "functions": [],
+      "dependencies": [],
+      "lines": 27,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Capture incident evidence and ownership consistently.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": "operations/RUNBOOK.md",
+      "cket_stage": "06_PLAN",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "Doc",
+      "functions": [],
+      "dependencies": [],
+      "lines": 31,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Provide reproducible review and incident handling steps.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": "operations/SLO.yaml",
+      "cket_stage": "06_PLAN",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "ConfigDoc",
+      "functions": [],
+      "dependencies": [],
+      "lines": 25,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Define a reviewable guild governance contract.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": "operations/cadence.yaml",
+      "cket_stage": "06_PLAN",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "ConfigDoc",
+      "functions": [],
+      "dependencies": [],
+      "lines": 24,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Define a reviewable guild governance contract.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": "roles/agents/_template.yaml",
+      "cket_stage": "06_PLAN",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "ConfigDoc",
+      "functions": [],
+      "dependencies": [],
+      "lines": 25,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Define a reviewable guild governance contract.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": "roles/human/_template.yaml",
+      "cket_stage": "06_PLAN",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "ConfigDoc",
+      "functions": [],
+      "dependencies": [],
+      "lines": 25,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Define a reviewable guild governance contract.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": "schemas/authority.schema.yaml",
+      "cket_stage": "06_PLAN",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "Schema",
+      "functions": [],
+      "dependencies": [],
+      "lines": 280,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Constrain machine-readable guild authority declarations.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": "schemas/capabilities.schema.yaml",
+      "cket_stage": "06_PLAN",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "Schema",
+      "functions": [],
+      "dependencies": [],
+      "lines": 109,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Constrain machine-readable guild capabilities declarations.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": "schemas/constitution.schema.yaml",
+      "cket_stage": "06_PLAN",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "Schema",
+      "functions": [],
+      "dependencies": [],
+      "lines": 105,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Constrain machine-readable guild constitution declarations.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": "schemas/events.schema.yaml",
+      "cket_stage": "06_PLAN",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "Schema",
+      "functions": [],
+      "dependencies": [],
+      "lines": 64,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Constrain machine-readable guild events declarations.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": "schemas/hierarchy.schema.yaml",
+      "cket_stage": "06_PLAN",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "Schema",
+      "functions": [],
+      "dependencies": [],
+      "lines": 86,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Constrain machine-readable guild hierarchy declarations.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": "schemas/mandates.schema.yaml",
+      "cket_stage": "06_PLAN",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "Schema",
+      "functions": [],
+      "dependencies": [],
+      "lines": 225,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Constrain machine-readable guild mandates declarations.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": "schemas/roles.schema.yaml",
+      "cket_stage": "06_PLAN",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "Schema",
+      "functions": [],
+      "dependencies": [],
+      "lines": 184,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Constrain machine-readable guild roles declarations.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": "service.datadog.yaml",
+      "cket_stage": "06_PLAN",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "ConfigDoc",
+      "functions": [],
+      "dependencies": [],
+      "lines": 26,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Define a reviewable guild governance contract.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": "tests/helpers.py",
+      "cket_stage": "08_TEST",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "Test",
+      "functions": [
+        "edit",
+        "ratify",
+        "approve",
+        "provide",
+        "activate_delegation"
+      ],
+      "dependencies": [
+        "__future__",
+        "compiler.materialize",
+        "compiler.yaml_subset",
+        "datetime",
+        "json",
+        "pathlib",
+        "tempfile",
+        "typing",
+        "unittest"
+      ],
+      "lines": 103,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Verify governance contracts with isolated known-good and known-bad fixtures.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": "tests/test_compiler.py",
+      "cket_stage": "08_TEST",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "Test",
+      "functions": [],
+      "dependencies": [
+        "__future__",
+        "compiler.validate",
+        "helpers",
+        "subprocess",
+        "sys",
+        "unittest"
+      ],
+      "lines": 173,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Verify governance contracts with isolated known-good and known-bad fixtures.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": "tests/test_cross_guild.py",
+      "cket_stage": "08_TEST",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "Test",
+      "functions": [],
+      "dependencies": [
+        "__future__",
+        "compiler.cross_guild_check",
+        "compiler.graphs",
+        "helpers",
+        "unittest"
+      ],
+      "lines": 146,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Verify governance contracts with isolated known-good and known-bad fixtures.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": "tests/test_materialize.py",
+      "cket_stage": "08_TEST",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "Test",
+      "functions": [],
+      "dependencies": [
+        "__future__",
+        "compiler.materialize",
+        "compiler.validate",
+        "compiler.yaml_subset",
+        "helpers",
+        "subprocess",
+        "sys",
+        "unittest"
+      ],
+      "lines": 143,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Verify governance contracts with isolated known-good and known-bad fixtures.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "A",
+      "file_path": "tests/test_schemas.py",
+      "cket_stage": "08_TEST",
+      "srs_codes": [
+        "SRS-GUILD-BOOTSTRAP-001"
+      ],
+      "enum_type": "Test",
+      "functions": [],
+      "dependencies": [
+        "__future__",
+        "compiler.schema",
+        "compiler.validate",
+        "compiler.yaml_subset",
+        "helpers",
+        "unittest"
+      ],
+      "lines": 127,
+      "caps_grade": "pending",
+      "ck_stamp": "pending",
+      "intent_statement": "Verify governance contracts with isolated known-good and known-bad fixtures.",
+      "objective_id": "user-authorized-bootstrap",
+      "outcome": "success",
+      "supersedes": false,
+      "dispatch_id": "user-authorized-bootstrap",
+      "seat": "BITS-CODEGEN",
+      "domain": "engineering",
+      "source_type": "seat_dispatch",
+      "tags": [
+        "user-authorized-bootstrap",
+        "BITS-CODEGEN",
+        "SRS-GUILD-BOOTSTRAP-001",
+        "constitutional-governance"
+      ],
+      "tenant_id": null
+    },
+    {
+      "type": "B",
+      "source": ".bits/context.md",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": ".bits/out/user-authorized-bootstrap/memory.cgrf.yaml",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": ".bits/out/user-authorized-bootstrap/memory.json",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": ".bits/srs/SRS-GUILD-BOOTSTRAP-001.md",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": ".bits/srs_registry.yml",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": ".gitignore",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": "AGENTS.md",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": "CLAUDE.md",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": "CONSTITUTION.md",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": "README.md",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": "compiler/README.md",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": "compiler/__init__.py",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": "compiler/cross_guild_check.py",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": "compiler/graphs.py",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": "compiler/materialize.py",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": "compiler/schema.py",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": "compiler/validate.py",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": "compiler/yaml_subset.py",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": "contracts/capabilities.yaml",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": "contracts/delegation/_template.yaml",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": "contracts/events/namespace.yaml",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": "governance/authority.yaml",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": "governance/escalation.yaml",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": "governance/guild.yaml",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": "governance/hierarchy.yaml",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": "governance/mandates.yaml",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": "operations/INCIDENTS.md",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": "operations/RUNBOOK.md",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": "operations/SLO.yaml",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": "operations/cadence.yaml",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": "roles/agents/_template.yaml",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": "roles/human/_template.yaml",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": "schemas/authority.schema.yaml",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": "schemas/capabilities.schema.yaml",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": "schemas/constitution.schema.yaml",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": "schemas/events.schema.yaml",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": "schemas/hierarchy.schema.yaml",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": "schemas/mandates.schema.yaml",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": "schemas/roles.schema.yaml",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": "service.datadog.yaml",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": "tests/helpers.py",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": "tests/test_compiler.py",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": "tests/test_cross_guild.py",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": "tests/test_materialize.py",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "B",
+      "source": "tests/test_schemas.py",
+      "target": "SRS-GUILD-BOOTSTRAP-001",
+      "edge_type": "DEPENDS_ON",
+      "weight": 1.0,
+      "description": "Implement or verify the explicitly user-authorized constitutional governance bootstrap scope.",
+      "dispatch_id": "user-authorized-bootstrap",
+      "created_by": "BITS-CODEGEN"
+    },
+    {
+      "type": "C",
+      "event_type": "test_pass",
+      "file_path": "tests/",
+      "description": "60 unittest cases passed under stdlib trace; every compiler module exceeded 80 percent traced line coverage. Strict mypy and Ruff checks passed. Local and single-guild cross-validation passed. No external dispatch, deployment or runtime authority is asserted.",
+      "caps_before": null,
+      "caps_after": null,
+      "dag_impact": null,
+      "dispatch_id": "user-authorized-bootstrap",
+      "timestamp": "2026-10-05T23:25:44.164030+00:00",
+      "commit_sha": null,
+      "smoke_result": "5/5"
+    }
+  ],
+  "summary": {
+    "type_a_count": 45,
+    "type_b_count": 45,
+    "type_c_count": 1,
+    "ioo_compliance": true,
+    "dkg_orphans": 0,
+    "dispatch_id": "user-authorized-bootstrap",
+    "srs_codes": [
+      "SRS-GUILD-BOOTSTRAP-001"
+    ],
+    "seat": "BITS-CODEGEN"
+  }
+}

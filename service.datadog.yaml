@@ -1,0 +1,26 @@
+# ─── CGRF Header ───────────────────────────────────────────────
+# File:        service.datadog.yaml
+# Stage:       06_PLAN
+# SRS:         SRS-GUILD-BOOTSTRAP-001
+# CAPS:        pending
+# CK:          pending
+# Dispatch:    user-authorized-bootstrap
+# Seat:        BITS-CODEGEN
+# Owner:       Citadel Nexus Inc.
+# Created:     2026-10-05
+# Depends:     none
+# EnumType:    ConfigDoc
+# EnumEdges:   DEPENDS_ON SRS-GUILD-BOOTSTRAP-001
+# DAG Node:    none
+# Intent:      Define a reviewable guild governance contract.
+# ───────────────────────────────────────────────────────────────
+
+schema-version: "v2.2"
+dd-service: "guild-template"
+team: "Citadel Nexus Inc."
+application: "guild-system"
+description: "Draft guild governance catalog entry; deployment and telemetry are not asserted."
+tags:
+  - "srs_code:SRS-GUILD-BOOTSTRAP-001"
+  - "seat:BITS-CODEGEN"
+  - "governance_status:draft"

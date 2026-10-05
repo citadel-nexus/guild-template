@@ -1,0 +1,36 @@
+# ─── CGRF Header ───────────────────────────────────────────────
+# File:        governance/guild.yaml
+# Stage:       06_PLAN
+# SRS:         SRS-GUILD-BOOTSTRAP-001
+# CAPS:        pending
+# CK:          pending
+# Dispatch:    user-authorized-bootstrap
+# Seat:        BITS-CODEGEN
+# Owner:       Citadel Nexus Inc.
+# Created:     2026-10-05
+# Depends:     none
+# EnumType:    ConfigDoc
+# EnumEdges:   DEPENDS_ON SRS-GUILD-BOOTSTRAP-001
+# DAG Node:    none
+# Intent:      Define a reviewable guild governance contract.
+# ───────────────────────────────────────────────────────────────
+
+schema_version: 1
+guild_id: "guild-template"
+display_name: "Guild Template"
+status: "draft"
+constitution:
+  identity: "PROMPT: State the guild identifier, legal owner and accountable human steward."
+  purpose: "PROMPT: State the enduring mission and explicit success criteria."
+  jurisdiction: "PROMPT: List domains, tenants and environments within the guild boundary."
+  reserved_powers: "PROMPT: Identify powers retained by humans or other guilds."
+  prohibited_powers: "PROMPT: List actions the guild must never take, even when requested by a parent."
+  parent_children: "PROMPT: Declare organizational relationships separately from mutation authority."
+  human_authority: "PROMPT: Name human approvers, override limits and review requirements."
+  agent_authority: "PROMPT: Map approved capabilities to A1-A9 and define when actions remain HELD."
+  delegation: "PROMPT: Define scoped, expiring, revocable delegations and approval evidence."
+  escalation: "PROMPT: Define conflict, appeal, timeout and unavailable-approver handling."
+  truth_requirements: "PROMPT: Distinguish planned, configured, deployed and observed claims; require evidence."
+  amendment_procedure: "PROMPT: Require a scoped SRS, dispatch, diff review, tests and human ratification."
+  succession: "PROMPT: Specify how authority transfers when a steward or guild is unavailable."
+  dissolution: "PROMPT: Specify who may dissolve the guild and how data and obligations transfer."

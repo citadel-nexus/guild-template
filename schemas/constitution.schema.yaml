@@ -1,0 +1,105 @@
+# ─── CGRF Header ───────────────────────────────────────────────
+# File:        schemas/constitution.schema.yaml
+# Stage:       06_PLAN
+# SRS:         SRS-GUILD-BOOTSTRAP-001
+# CAPS:        pending
+# CK:          pending
+# Dispatch:    user-authorized-bootstrap
+# Seat:        BITS-CODEGEN
+# Owner:       Citadel Nexus Inc.
+# Created:     2026-10-05
+# Depends:     none
+# EnumType:    Schema
+# EnumEdges:   DEPENDS_ON SRS-GUILD-BOOTSTRAP-001
+# DAG Node:    none
+# Intent:      Constrain machine-readable guild constitution declarations.
+# ───────────────────────────────────────────────────────────────
+
+$schema: "https://json-schema.org/draft/2020-12/schema"
+title: "Guild constitution"
+type: "object"
+properties:
+  schema_version:
+    type: "integer"
+    const: 1
+  guild_id:
+    type: "string"
+    minLength: 1
+    pattern: "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+  display_name:
+    type: "string"
+    minLength: 1
+  status:
+    type: "string"
+    minLength: 1
+    enum:
+      - "draft"
+      - "ratified"
+  constitution:
+    type: "object"
+    properties:
+      identity:
+        type: "string"
+        minLength: 1
+      purpose:
+        type: "string"
+        minLength: 1
+      jurisdiction:
+        type: "string"
+        minLength: 1
+      reserved_powers:
+        type: "string"
+        minLength: 1
+      prohibited_powers:
+        type: "string"
+        minLength: 1
+      parent_children:
+        type: "string"
+        minLength: 1
+      human_authority:
+        type: "string"
+        minLength: 1
+      agent_authority:
+        type: "string"
+        minLength: 1
+      delegation:
+        type: "string"
+        minLength: 1
+      escalation:
+        type: "string"
+        minLength: 1
+      truth_requirements:
+        type: "string"
+        minLength: 1
+      amendment_procedure:
+        type: "string"
+        minLength: 1
+      succession:
+        type: "string"
+        minLength: 1
+      dissolution:
+        type: "string"
+        minLength: 1
+    required:
+      - "identity"
+      - "purpose"
+      - "jurisdiction"
+      - "reserved_powers"
+      - "prohibited_powers"
+      - "parent_children"
+      - "human_authority"
+      - "agent_authority"
+      - "delegation"
+      - "escalation"
+      - "truth_requirements"
+      - "amendment_procedure"
+      - "succession"
+      - "dissolution"
+    additionalProperties: false
+required:
+  - "schema_version"
+  - "guild_id"
+  - "display_name"
+  - "status"
+  - "constitution"
+additionalProperties: false

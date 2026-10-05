@@ -1,0 +1,23 @@
+# ─── CGRF Header ───────────────────────────────────────────────
+# File:        .bits/out/user-authorized-bootstrap/memory.cgrf.yaml
+# Stage:       11_COMMIT
+# SRS:         SRS-GUILD-BOOTSTRAP-001
+# CAPS:        pending
+# CK:          pending
+# Dispatch:    user-authorized-bootstrap
+# Seat:        BITS-CODEGEN
+# Owner:       Citadel Nexus Inc.
+# Created:     2026-10-05
+# Depends:     none
+# EnumType:    ConfigDoc
+# EnumEdges:   DEPENDS_ON SRS-GUILD-BOOTSTRAP-001
+# DAG Node:    none
+# Intent:      Describe the JSON memory payload without adding invalid JSON comments.
+# ───────────────────────────────────────────────────────────────
+
+asset: ".bits/out/user-authorized-bootstrap/memory.json"
+stage: "11_COMMIT"
+srs: "SRS-GUILD-BOOTSTRAP-001"
+dispatch: "user-authorized-bootstrap"
+owner: "Citadel Nexus Inc."
+intent: "Preserve bootstrap file provenance and verified local validation events."

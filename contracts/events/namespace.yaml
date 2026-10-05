@@ -1,0 +1,21 @@
+# ─── CGRF Header ───────────────────────────────────────────────
+# File:        contracts/events/namespace.yaml
+# Stage:       06_PLAN
+# SRS:         SRS-GUILD-BOOTSTRAP-001
+# CAPS:        pending
+# CK:          pending
+# Dispatch:    user-authorized-bootstrap
+# Seat:        BITS-CODEGEN
+# Owner:       Citadel Nexus Inc.
+# Created:     2026-10-05
+# Depends:     none
+# EnumType:    ConfigDoc
+# EnumEdges:   DEPENDS_ON SRS-GUILD-BOOTSTRAP-001
+# DAG Node:    none
+# Intent:      Define a reviewable guild governance contract.
+# ───────────────────────────────────────────────────────────────
+
+owner: "guild-template"
+canonical:
+  - "citadel.guild-template.>"
+deprecated_aliases: []
