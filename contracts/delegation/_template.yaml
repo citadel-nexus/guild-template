@@ -1,0 +1,27 @@
+# ─── CGRF Header ───────────────────────────────────────────────
+# File:        contracts/delegation/_template.yaml
+# Stage:       06_PLAN
+# SRS:         SRS-GUILD-BOOTSTRAP-001
+# CAPS:        pending
+# CK:          pending
+# Dispatch:    user-authorized-bootstrap
+# Seat:        BITS-CODEGEN
+# Owner:       Citadel Nexus Inc.
+# Created:     2026-10-05
+# Depends:     none
+# EnumType:    ConfigDoc
+# EnumEdges:   DEPENDS_ON SRS-GUILD-BOOTSTRAP-001
+# DAG Node:    none
+# Intent:      Define a reviewable guild governance contract.
+# ───────────────────────────────────────────────────────────────
+
+delegation_id: "draft-delegation"
+status: "draft"
+from_role: "human-operator"
+to_role: "agent-worker"
+authority_level: "A1"
+capabilities: []
+scope: []
+expires_at: ""
+approved_by: ""
+revocation_route: "human-review"

@@ -1,0 +1,280 @@
+# ─── CGRF Header ───────────────────────────────────────────────
+# File:        schemas/authority.schema.yaml
+# Stage:       06_PLAN
+# SRS:         SRS-GUILD-BOOTSTRAP-001
+# CAPS:        pending
+# CK:          pending
+# Dispatch:    user-authorized-bootstrap
+# Seat:        BITS-CODEGEN
+# Owner:       Citadel Nexus Inc.
+# Created:     2026-10-05
+# Depends:     none
+# EnumType:    Schema
+# EnumEdges:   DEPENDS_ON SRS-GUILD-BOOTSTRAP-001
+# DAG Node:    none
+# Intent:      Constrain machine-readable guild authority declarations.
+# ───────────────────────────────────────────────────────────────
+
+$schema: "https://json-schema.org/draft/2020-12/schema"
+title: "Guild authority"
+type: "object"
+properties:
+  levels:
+    type: "object"
+    properties:
+      A1:
+        type: "object"
+        properties:
+          description:
+            type: "string"
+            minLength: 1
+          capabilities:
+            type: "array"
+            items:
+              type: "string"
+              minLength: 1
+            uniqueItems: true
+          approval:
+            type: "string"
+            minLength: 1
+            enum:
+              - "pending"
+              - "approved"
+          approved_by:
+            type: "string"
+        required:
+          - "description"
+          - "capabilities"
+          - "approval"
+          - "approved_by"
+        additionalProperties: false
+      A2:
+        type: "object"
+        properties:
+          description:
+            type: "string"
+            minLength: 1
+          capabilities:
+            type: "array"
+            items:
+              type: "string"
+              minLength: 1
+            uniqueItems: true
+          approval:
+            type: "string"
+            minLength: 1
+            enum:
+              - "pending"
+              - "approved"
+          approved_by:
+            type: "string"
+        required:
+          - "description"
+          - "capabilities"
+          - "approval"
+          - "approved_by"
+        additionalProperties: false
+      A3:
+        type: "object"
+        properties:
+          description:
+            type: "string"
+            minLength: 1
+          capabilities:
+            type: "array"
+            items:
+              type: "string"
+              minLength: 1
+            uniqueItems: true
+          approval:
+            type: "string"
+            minLength: 1
+            enum:
+              - "pending"
+              - "approved"
+          approved_by:
+            type: "string"
+        required:
+          - "description"
+          - "capabilities"
+          - "approval"
+          - "approved_by"
+        additionalProperties: false
+      A4:
+        type: "object"
+        properties:
+          description:
+            type: "string"
+            minLength: 1
+          capabilities:
+            type: "array"
+            items:
+              type: "string"
+              minLength: 1
+            uniqueItems: true
+          approval:
+            type: "string"
+            minLength: 1
+            enum:
+              - "pending"
+              - "approved"
+          approved_by:
+            type: "string"
+        required:
+          - "description"
+          - "capabilities"
+          - "approval"
+          - "approved_by"
+        additionalProperties: false
+      A5:
+        type: "object"
+        properties:
+          description:
+            type: "string"
+            minLength: 1
+          capabilities:
+            type: "array"
+            items:
+              type: "string"
+              minLength: 1
+            uniqueItems: true
+          approval:
+            type: "string"
+            minLength: 1
+            enum:
+              - "pending"
+              - "approved"
+          approved_by:
+            type: "string"
+        required:
+          - "description"
+          - "capabilities"
+          - "approval"
+          - "approved_by"
+        additionalProperties: false
+      A6:
+        type: "object"
+        properties:
+          description:
+            type: "string"
+            minLength: 1
+          capabilities:
+            type: "array"
+            items:
+              type: "string"
+              minLength: 1
+            uniqueItems: true
+          approval:
+            type: "string"
+            minLength: 1
+            enum:
+              - "pending"
+              - "approved"
+          approved_by:
+            type: "string"
+        required:
+          - "description"
+          - "capabilities"
+          - "approval"
+          - "approved_by"
+        additionalProperties: false
+      A7:
+        type: "object"
+        properties:
+          description:
+            type: "string"
+            minLength: 1
+          capabilities:
+            type: "array"
+            items:
+              type: "string"
+              minLength: 1
+            uniqueItems: true
+          approval:
+            type: "string"
+            minLength: 1
+            enum:
+              - "pending"
+              - "approved"
+          approved_by:
+            type: "string"
+        required:
+          - "description"
+          - "capabilities"
+          - "approval"
+          - "approved_by"
+        additionalProperties: false
+      A8:
+        type: "object"
+        properties:
+          description:
+            type: "string"
+            minLength: 1
+          capabilities:
+            type: "array"
+            items:
+              type: "string"
+              minLength: 1
+            uniqueItems: true
+          approval:
+            type: "string"
+            minLength: 1
+            enum:
+              - "pending"
+              - "approved"
+          approved_by:
+            type: "string"
+        required:
+          - "description"
+          - "capabilities"
+          - "approval"
+          - "approved_by"
+        additionalProperties: false
+      A9:
+        type: "object"
+        properties:
+          description:
+            type: "string"
+            minLength: 1
+          capabilities:
+            type: "array"
+            items:
+              type: "string"
+              minLength: 1
+            uniqueItems: true
+          approval:
+            type: "string"
+            minLength: 1
+            enum:
+              - "pending"
+              - "approved"
+          approved_by:
+            type: "string"
+        required:
+          - "description"
+          - "capabilities"
+          - "approval"
+          - "approved_by"
+        additionalProperties: false
+    required:
+      - "A1"
+      - "A2"
+      - "A3"
+      - "A4"
+      - "A5"
+      - "A6"
+      - "A7"
+      - "A8"
+      - "A9"
+    additionalProperties: false
+  default_decision:
+    type: "string"
+    const: "HELD"
+  inherit_parent_authority:
+    type: "boolean"
+    const: false
+required:
+  - "levels"
+  - "default_decision"
+  - "inherit_parent_authority"
+additionalProperties: false

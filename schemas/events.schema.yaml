@@ -1,0 +1,64 @@
+# ─── CGRF Header ───────────────────────────────────────────────
+# File:        schemas/events.schema.yaml
+# Stage:       06_PLAN
+# SRS:         SRS-GUILD-BOOTSTRAP-001
+# CAPS:        pending
+# CK:          pending
+# Dispatch:    user-authorized-bootstrap
+# Seat:        BITS-CODEGEN
+# Owner:       Citadel Nexus Inc.
+# Created:     2026-10-05
+# Depends:     none
+# EnumType:    Schema
+# EnumEdges:   DEPENDS_ON SRS-GUILD-BOOTSTRAP-001
+# DAG Node:    none
+# Intent:      Constrain machine-readable guild events declarations.
+# ───────────────────────────────────────────────────────────────
+
+$schema: "https://json-schema.org/draft/2020-12/schema"
+title: "Guild events"
+type: "object"
+properties:
+  owner:
+    type: "string"
+    minLength: 1
+    pattern: "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+  canonical:
+    type: "array"
+    items:
+      type: "string"
+      minLength: 1
+      pattern: "^citadel(?:\\.(?:[a-zA-Z0-9_-]+|\\*))+?(?:\\.>)?$"
+    uniqueItems: true
+  deprecated_aliases:
+    type: "array"
+    items:
+      type: "object"
+      properties:
+        alias:
+          type: "string"
+          minLength: 1
+          pattern: "^citadel(?:\\.(?:[a-zA-Z0-9_-]+|\\*))+?(?:\\.>)?$"
+        canonical:
+          type: "string"
+          minLength: 1
+          pattern: "^citadel(?:\\.(?:[a-zA-Z0-9_-]+|\\*))+?(?:\\.>)?$"
+        reason:
+          type: "string"
+          minLength: 1
+        sunset:
+          type: "string"
+          minLength: 1
+          pattern: "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+      required:
+        - "alias"
+        - "canonical"
+        - "reason"
+        - "sunset"
+      additionalProperties: false
+    uniqueItems: true
+required:
+  - "owner"
+  - "canonical"
+  - "deprecated_aliases"
+additionalProperties: false

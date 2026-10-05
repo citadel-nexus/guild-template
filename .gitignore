@@ -1,0 +1,23 @@
+# ─── CGRF Header ───────────────────────────────────────────────
+# File:        .gitignore
+# Stage:       11_COMMIT
+# SRS:         SRS-GUILD-BOOTSTRAP-001
+# CAPS:        pending
+# CK:          pending
+# Dispatch:    user-authorized-bootstrap
+# Seat:        BITS-CODEGEN
+# Owner:       Citadel Nexus Inc.
+# Created:     2026-10-05
+# Depends:     none
+# EnumType:    ConfigDoc
+# EnumEdges:   DEPENDS_ON SRS-GUILD-BOOTSTRAP-001
+# DAG Node:    none
+# Intent:      Keep local Python validation caches out of source control.
+# ───────────────────────────────────────────────────────────────
+
+__pycache__/
+*.py[cod]
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
